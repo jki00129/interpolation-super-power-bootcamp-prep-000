@@ -1,11 +1,12 @@
 # Write your #display_rainbow method here
- colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+  colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
  letters = ["R","O","Y","G","B","I","V"]
-puts "The first color is  #{letters[0]}"
-puts "The second letter in the alphabet is: #{letters[0]}"
-puts "The third letter in the alphabet is: #{letters[2]}"
-def display_rainbow(colors)
-  puts "
-  "
+ def display_rainbow(colors)
+ puts "#{letters[0]}: red, #{letters[1]}: orange, #{letters[2]}: yellow, #{letters[3]}: green, #{letters[4]}: blue, #{letters[5]}: indigo, #{letters[6]}: violet"
   
 end
+
+ colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+ letters = ["R","O","Y","G","B","I","V"]
+puts "#{letters[0]}: red, #{letters[1]}: orange, #{letters[2]}: yellow, #{letters[3]}: green, #{letters[4]}: blue, #{letters[5]}: indigo, #{letters[6]}: violet"
+
